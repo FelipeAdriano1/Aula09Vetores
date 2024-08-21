@@ -1,0 +1,28 @@
+package collections.exec7;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Collections_ {
+	public static void main(String[] args) {
+		
+		List<String> items = new ArrayList<>();
+		
+		items.add("Acerola");
+		items.add("Banana");
+		items.add("Caqui");
+		items.add("Maça");
+		items.add("Laranja");
+		items.add("Manga");
+		items.add("Mamão");
+		items.add("Melancia");
+		items.add("Romã");
+
+		Collections.reverseOrder();
+		
+		for(String i : items) {
+			System.out.println(i);
+		}
+	}
+}

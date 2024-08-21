@@ -1,0 +1,17 @@
+package arrayDeque.exec2;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class ArrayDeque_ {
+	public static void main(String[] args) {
+		Deque<String> stack = new ArrayDeque<>();
+		
+		stack.push("Primeiro elemento");
+		stack.push("Segundo elemento");
+		stack.push("Terceiro elemento");
+
+		System.out.println("Elemento removido do topo da pilha: " + stack.pop());
+		System.out.println("\nAtual último elemento: " + stack.peek());
+	}
+}

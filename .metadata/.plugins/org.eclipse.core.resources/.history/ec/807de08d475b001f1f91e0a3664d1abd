@@ -1,0 +1,16 @@
+package interfaceCollection.exec8;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class InterfaceCollection_ {
+	public static void main(String[] args) {
+		
+		Collection<String> items = new ArrayList<>(); // Cria uma coleção de Strings usando ArrayList
+		
+		items.add("Item 1"); // Adiciona "Item 1" à coleção
+		items.add("Item 2"); // Adiciona "Item 2" à coleção
+
+		System.out.println("Total items: " + items.size()); // Exibe o número de itens na coleção: 2
+	}
+}

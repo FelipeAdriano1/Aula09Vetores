@@ -1,0 +1,21 @@
+package stack.exec4;
+
+import java.util.Stack;
+
+public class Stack_ {
+	public static void main(String[] args) {
+		Stack<String> stack = new Stack<>();
+
+		stack.push("Elemento 1");
+		stack.push("Elemento 2");
+		stack.push("Elemento 3");
+
+		//System.out.println("Topo da pilha: " + stack.peek()); 
+		//System.out.println("Removendo o topo da pilha: " + stack.pop());
+		
+		stack.remove(2);
+		
+		System.out.println("\nPrintando a pilha após a remoção de um elemento aleatório.");
+		System.out.println("\n" + stack.peek());
+	}
+}

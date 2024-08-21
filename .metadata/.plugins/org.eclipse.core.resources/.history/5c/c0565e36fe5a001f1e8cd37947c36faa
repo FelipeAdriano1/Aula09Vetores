@@ -1,0 +1,25 @@
+package stack.exec4;
+
+import java.util.Stack;
+
+public class Stack_ {
+	public static void main(String[] args) {
+		Stack<String> stack = new Stack<>();
+
+		stack.push("Elemento 1");
+		stack.push("Elemento 2");
+		stack.push("Elemento 3");
+
+		//System.out.println("Topo da pilha: " + stack.peek()); 
+		//System.out.println("Removendo o topo da pilha: " + stack.pop());
+		
+		stack.remove(1);
+		
+		System.out.println("Removendo o elemento 2\n");
+		System.out.println("Printando lista após a remoção do elemento 2\n");
+		
+		for(int i = 0; i < stack.size(); i++) {
+			System.out.println(stack.elementAt(i));
+		}
+	}
+}

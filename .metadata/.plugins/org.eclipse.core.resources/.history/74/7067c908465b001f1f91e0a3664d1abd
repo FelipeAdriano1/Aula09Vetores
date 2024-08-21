@@ -1,0 +1,17 @@
+package linkedList.exec5;
+
+import java.util.LinkedList;
+
+public class LinkedList_ {
+	public static void main(String[] args) {
+		
+		LinkedList<String> list = new LinkedList<>();
+		
+		list.add("Elemento 1");
+		list.add("Elemento 2");
+		
+		list.addFirst("Elemento 0"); 
+
+		System.out.println(list); 
+	}
+}

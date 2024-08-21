@@ -1,0 +1,16 @@
+package stack.exec4;
+
+import java.util.Stack;
+
+public class Stack_ {
+	public static void main(String[] args) {
+		Stack<String> stack = new Stack<>();
+
+		stack.push("Elemento 1");
+		stack.push("Elemento 2");
+		stack.push("Elemento 3");
+
+		System.out.println("Topo da pilha: " + stack.peek()); 
+		System.out.println("Removendo o topo da pilha: " + stack.pop());
+	}
+}

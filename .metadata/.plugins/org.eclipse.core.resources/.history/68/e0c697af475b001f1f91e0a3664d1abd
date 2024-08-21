@@ -1,0 +1,16 @@
+package interfaceCollection.exec8;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class InterfaceCollection_ {
+	public static void main(String[] args) {
+		
+		Collection<String> items = new ArrayList<>(); 
+		
+		items.add("Item 1"); 
+		items.add("Item 2");
+
+		System.out.println("Total items: " + items.size()); 
+	}
+}

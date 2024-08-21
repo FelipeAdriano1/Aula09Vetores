@@ -1,0 +1,14 @@
+package arrays.exec1;
+
+import java.util.Arrays;
+
+public class Arrays_ {
+	public static void main(String[] args) {
+		int[] numbers = {5, 3, 8, 2};
+        Arrays.sort(numbers);  
+        System.out.println(Arrays.toString(numbers)); 
+
+        int index = Arrays.binarySearch(numbers, 5);  
+        System.out.println("Index of 5: " + index); 
+	}
+}

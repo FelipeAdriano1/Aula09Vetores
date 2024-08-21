@@ -1,0 +1,15 @@
+package arrays.exec1;
+
+import java.util.Arrays;
+
+public class Arrays_ {
+	public static void main(String[] args) {
+		int[] num = {34,233, 2318, 322, 231, 321, 3, 54, 43};
+		
+        Arrays.sort(num);  
+        System.out.println(Arrays.toString(num)); 
+
+        int index = Arrays.binarySearch(num, 321);  
+        System.out.println("Index of 5: " + index); 
+	}
+}

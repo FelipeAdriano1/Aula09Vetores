@@ -1,0 +1,20 @@
+package interfaceCollection.exec8;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class InterfaceCollection_ {
+	public static void main(String[] args) {
+		
+		Collection<String> items = new ArrayList<>(); 
+		
+		items.add("Corsa"); 
+		items.add("Cruze");
+		items.add("Cobalt");
+		items.add("Corvete");
+		items.add("Cadillac");
+		items.add("Chevrolet");
+
+		System.out.println("Total items: " + items.size()); 
+	}
+}
